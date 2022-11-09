@@ -1,0 +1,67 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Top CO2 Emissions by Country 2016",
+    "subtitle": "",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "values": [
+      {"#": 1, "Country": "China", "CO2 Emissions (tons, 2016)": 10432751400},
+      {
+        "#": 2,
+        "Country": "United States",
+        "CO2 Emissions (tons, 2016)": 5011686600
+      },
+      {"#": 3, "Country": "India", "CO2 Emissions (tons, 2016)": 2533638100},
+      {"#": 4, "Country": "Russia", "CO2 Emissions (tons, 2016)": 1661899300},
+      {"#": 5, "Country": "Japan", "CO2 Emissions (tons, 2016)": 1239592060},
+      {"#": 6, "Country": "Germany", "CO2 Emissions (tons, 2016)": 775752190},
+      {"#": 7, "Country": "Canada", "CO2 Emissions (tons, 2016)": 675918610},
+      {"#": 8, "Country": "Iran", "CO2 Emissions (tons, 2016)": 642560030},
+      {
+        "#": 9,
+        "Country": "South Korea",
+        "CO2 Emissions (tons, 2016)": 604043830
+      },
+      {
+        "#": 10,
+        "Country": "Indonesia",
+        "CO2 Emissions (tons, 2016)": 530035650
+      },
+      {
+        "#": 11,
+        "Country": "Saudi Arabia",
+        "CO2 Emissions (tons, 2016)": 517079407
+      },
+      {"#": 12, "Country": "Brazil", "CO2 Emissions (tons, 2016)": 462994920},
+      {"#": 13, "Country": "Mexico", "CO2 Emissions (tons, 2016)": 441412750},
+      {
+        "#": 14,
+        "Country": "Australia",
+        "CO2 Emissions (tons, 2016)": 414988700
+      },
+      {
+        "#": 15,
+        "Country": "South Africa",
+        "CO2 Emissions (tons, 2016)": 390557850
+      }
+    ]
+  },
+  "height": 300,
+  "width": 300,
+  "mark": {"type": "bar", "color": "rgb(252,136,240"},
+  "encoding": {
+    "x": {
+      "field": "CO2 Emissions (tons, 2016)",
+      "type": "quantitative",
+      "title": "CO2 Emissions in tons, 2016",
+      "scale": {"domain": [0, 10500000000]}
+    },
+    "y": {"field": "Country", "type": "ordinal", "sort": [], "title": null}
+  },
+  "config": {}
+}
