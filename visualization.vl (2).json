@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Europe",
+    "subtitle": "A base map of Europe with added tooltip for countries",
+    "anchor": "start",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10
+  },
+  "width": 400,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/izzymercer/izzymercer.github.io/main/EU_map.json",
+    "format": {"type": "topojson", "feature": "continent_Europe_subunits"}
+  },
+  "projection": {"type": "mercator"},
+  "mark": {"type": "geoshape", "stroke": "darkgrey", "strokeWidth": 0.5},
+  "encoding": {
+    "tooltip": [
+      {"field": "properties.geounit", "type": "nominal", "title": "Country"}
+    ]
+  },
+  "config": {}
+}
