@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A bubbleplot showing horsepower on x, miles per gallons on y, and binned acceleration on size.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/izzymercer/izzymercer.github.io/main/agriculture_GDP.csv"
+  },
+  "title": {
+    "text": "Sub-Saharan Africa: Share of Agriculture and GDP per capita",
+    "subtitle": "Data from 2020, Source: The World Bank",
+    "subtitleFontSize": 10,
+    "subtitleFontStyle": "italic",
+    "anchor": "start"
+  },
+  "mark": {"type": "point", "tooltip": {"content": "data"}},
+  "encoding": {
+    "x": {"field": "GDP per capita", "type": "quantitative"},
+    "y": {"field": "Agriculture (% of GDP)", "type": "quantitative"},
+    "size": {"field": "Agriculture (% of GDP)", "type": "quantitative"}
+  },
+  "config": {}
+}
