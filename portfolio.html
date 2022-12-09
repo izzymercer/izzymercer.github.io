@@ -19,9 +19,9 @@
 </body>
 
     <!--The next three lines allow the Vega embed-->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed"></script>
 </head>
 
 
@@ -39,21 +39,22 @@
         
     
         <p>My first chart tracks the aeging population in South Korea</p>
-        <div class="chart" id="Chart1"></div>
+        <div class="chart" id="#Chart1"></div>
 
        
         <p>My second chart looks at cumulative deaths as a result of covid-19</p>
-        <div class="chart" id="Chart2"> </div>
+        <div class="chart" id="#Chart2"> </div>
+
     </div>
 
 <div class="myweek2">
     <h3>Week 2</h3>
 
     <p> My third chart shows raw CSV data on IFM lending outstanding</p>
-    <div class="chart" id="Chart3"></div>
+    <div class="chart" id="#Chart3"></div>
 
     <p>My fourth chart represents IMF lending outstanding divided by world GDP</p>
-    <div class="chart" id="Chart4"> </div>
+    <div class="chart" id="#Chart4"> </div>
 
     <p> We can see the most risky year is 1984 whereas in absolute terms lending was highest in 2022.</p>
 
@@ -63,7 +64,7 @@
 <h3>Week 3</h3>
 
 <p> Create and imbed an original chart on vega</p>
-<div class="chart" id="Chart5"></div>
+<div class="chart" id="#Chart5"></div>
 
 </div>
 
@@ -74,7 +75,7 @@
 <h3>Week 4 </h3>
 
 <p>The code i used for my data scraping can be found here:<a href="https://colab.research.google.com/drive/10eMItZKGRhzS_lpUDZ0-7HHTelYBPdru#scrollTo=h_bYEAS2qlaS" id="link_colab">Colab</a>  </p>
-<div class="chart" id="Chart6"></div>
+<div class="chart" id="#Chart6"></div>
 
 </div>
 
@@ -112,9 +113,8 @@
 
 <h3> My Week 8 </h3>
 
-
 </p>
-    </div>
+</div>
 
 </body>
 </container>
@@ -133,10 +133,10 @@
     var myChart10 = "ONS_graph_L2KX.json";
     var myChart11 = "ONS_graph_L2N8.json";
     var myChart12 = "ONS_graph_L2NC.json";
-    var mychart13
-    var mychart14
-    var mychart15
-    var mychart16 
+    var mychart13 = "ONS_graph_L3BG.json";
+    var mychart14 = "ONS_graph_L3BB.json";
+    var mychart15 = "ONS_graph_L64Z.json";
+    var mychart16 = "ONS_graph_IHXW.json";
     var myChart17 = "world_map_graph.json";
     var myChart18 = "map_average_temp.json"
 
@@ -153,6 +153,10 @@
     vegaEmbed('#Chart10', mychart10);
     vegaEmbed('#Chart11', myChart11);
     vegaEmbed('#Chart12', mychart12);
+    vegaEmbed('#Chart13', mychart13);
+    vegaEmbed('#Chart14', mychart14);
+    vegaEmbed('#Chart15', mychart15);
+    vegaEmbed('#Chart16', mychart16);
     vegaEmbed('#Chart17', myChart17);
     vegaEmbed('#Chart18', myChart18);
     
