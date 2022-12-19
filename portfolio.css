@@ -12,9 +12,9 @@
 /* Book on colour = Joseph Albers - Interaction of Colour */
 
 body{
-    
+
     color: rgba(233, 233, 233, 0.726);
- 
+
 }
 
 /* Choose the appearance of the tags, h1, h3 and p: */
@@ -23,21 +23,16 @@ h1, h3, p{
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
-    
-.myWeek1{
+
+.weekCSS{
     margin: auto;
     max-width: 600px;
     background-color: rgb(255, 255, 255);
-
-      
     border-width: 0px;
     border-style: solid;
     border-radius: 10px;
     border-color: rgb(73, 135, 183);
 }
-
-
-/* Set the apperance of the class, chart */
 
 
 .chart{
@@ -48,25 +43,5 @@ h1, h3, p{
     border-radius: 10px;
     border-color: grey;
     display: block;
-    margin: 0 auto;   
-}    
-#Chart1,#Chart2,#Chart3,#Chart4,#Chart5,#Chart6,#Chart7,#Chart17,#Chart18{
-    background-color: white;
-    width: 450px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: grey;
-    display: block;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
-#Chart8,#Chart9,#Chart10,#Chart11,#Chart12,#Chart13,#Chart14,#Chart15,#Chart16{
-    background-color: white;
-    width: 300px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: grey; 
-    display: inline-block;
-}
-    
