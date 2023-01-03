@@ -1,0 +1,146 @@
+Country,Item,Value_divided
+Angola,Bananas,39.54036
+Angola,"Cassava, fresh",87.30517
+Angola,Maize (corn),27.65316
+Angola,Sweet potatoes,16.88122
+Benin,"Cassava, fresh",38.19804
+Benin,Maize (corn),15.09758
+Benin,Yams,29.44944
+Burkina Faso,Maize (corn),17.00127
+Burkina Faso,Millet,11.89079
+Burkina Faso,Sorghum,19.29834
+Burundi,Bananas,16.54955
+Burundi,"Cassava, fresh",23.86709
+Cameroon,Bananas,12.08694
+Cameroon,"Cassava, fresh",48.0
+Cameroon,Maize (corn),20.99729
+Cameroon,Oil palm fruit,25.0
+Cameroon,Plantains and cooking bananas,45.0
+Cameroon,Sorghum,12.0
+Cameroon,Sugar cane,12.55532
+Cameroon,Taro,17.98576
+Cameroon,Tomatoes,11.7202
+Congo,"Cassava, fresh",15.8438
+Côte d'Ivoire,"Cassava, fresh",56.08044
+Côte d'Ivoire,Cocoa beans,21.13189
+Côte d'Ivoire,Maize (corn),10.5496
+Côte d'Ivoire,Oil palm fruit,21.30842
+Côte d'Ivoire,Plantains and cooking bananas,18.54487
+Côte d'Ivoire,Rice,20.06845
+Côte d'Ivoire,"Rice, paddy (rice milled equivalent)",13.38566
+Côte d'Ivoire,Sugar cane,20.263
+Côte d'Ivoire,Yams,73.91131
+Democratic Republic of the Congo,"Cassava, fresh",388.73036
+Democratic Republic of the Congo,Maize (corn),21.86055
+Democratic Republic of the Congo,Oil palm fruit,18.9
+Democratic Republic of the Congo,Plantains and cooking bananas,48.32323
+Democratic Republic of the Congo,Rice,12.86872
+Democratic Republic of the Congo,Sugar cane,21.22933
+Eswatini,Sugar cane,56.85466
+Ethiopia,Barley,17.4892
+Ethiopia,"Broad beans and horse beans, dry",10.41954
+Ethiopia,Cereals n.e.c.,54.03479
+Ethiopia,Maize (corn),101.19847
+Ethiopia,Millet,10.3563
+Ethiopia,Sorghum,50.24368
+Ethiopia,Sugar cane,12.94081
+Ethiopia,Sweet potatoes,15.12112
+Ethiopia,Taro,15.88494
+Ethiopia,Wheat,48.38074
+Ghana,"Cassava, fresh",208.4596
+Ghana,Maize (corn),23.06384
+Ghana,Oil palm fruit,24.59091
+Ghana,Plantains and cooking bananas,46.88279
+Ghana,Taro,14.60938
+Ghana,Yams,78.58209
+Guinea,"Cassava, fresh",18.95396
+Guinea,Rice,23.39747
+Guinea,"Rice, paddy (rice milled equivalent)",15.60611
+Kenya,Bananas,14.14176
+Kenya,Maize (corn),40.13777
+Kenya,Potatoes,18.70375
+Kenya,Sugar cane,52.62157
+Madagascar,"Cassava, fresh",25.0
+Madagascar,Rice,40.3
+Madagascar,"Rice, paddy (rice milled equivalent)",26.8801
+Madagascar,Sugar cane,30.21262
+Madagascar,Sweet potatoes,10.88922
+Malawi,"Cassava, fresh",54.10506
+Malawi,Maize (corn),26.97959
+Malawi,"Mangoes, guavas and mangosteens",16.94448
+Malawi,Potatoes,11.25874
+Malawi,Sugar cane,29.03
+Malawi,Sweet potatoes,56.68543
+Mali,Maize (corn),36.2495
+Mali,Millet,18.40321
+Mali,Rice,31.67528
+Mali,"Rice, paddy (rice milled equivalent)",21.12741
+Mali,Sorghum,14.69688
+Mauritius,Sugar cane,31.54515
+Mozambique,"Cassava, fresh",63.46023
+Mozambique,Maize (corn),14.06794
+Mozambique,Sugar cane,31.39
+Niger,"Cow peas, dry",23.76727
+Niger,Millet,38.56344
+Niger,"Onions and shallots, dry (excluding dehydrated)",11.80323
+Niger,Sorghum,21.0019
+Nigeria,"Cassava, fresh",558.67727
+Nigeria,"Cow peas, dry",35.0
+Nigeria,"Groundnuts, excluding shelled",46.0
+Nigeria,Maize (corn),110.0
+Nigeria,Millet,21.19
+Nigeria,Oil palm fruit,96.0
+Nigeria,Okra,17.31691
+Nigeria,"Onions and shallots, dry (excluding dehydrated)",14.0
+Nigeria,"Other citrus fruit, n.e.c.",39.90848
+Nigeria,"Other fruits, n.e.c.",11.99047
+Nigeria,"Other vegetables, fresh n.e.c.",68.06425
+Nigeria,Pineapples,15.09886
+Nigeria,Plantains and cooking bananas,30.80675
+Nigeria,Potatoes,12.05893
+Nigeria,Rice,84.03
+Nigeria,"Rice, paddy (rice milled equivalent)",56.04801
+Nigeria,Sorghum,68.0
+Nigeria,Sugar cane,14.80903
+Nigeria,Sweet potatoes,38.77515
+Nigeria,Taro,32.28512
+Nigeria,Tomatoes,35.0
+Nigeria,Yams,500.0
+Rwanda,Bananas,10.1
+Rwanda,"Cassava, fresh",11.272
+Rwanda,Sweet potatoes,11.86731
+Senegal,"Cassava, fresh",10.23738
+Senegal,"Groundnuts, excluding shelled",15.00588
+Senegal,Rice,12.06587
+Senegal,Sugar cane,13.78
+Senegal,Watermelons,11.72772
+Sierra Leone,"Cassava, fresh",21.45782
+South Africa,Grapes,19.01736
+South Africa,Maize (corn),125.1
+South Africa,Oranges,17.7576
+South Africa,Potatoes,24.67724
+South Africa,Soya beans,15.4
+South Africa,Sugar cane,193.01688
+South Africa,Wheat,18.68
+Togo,"Cassava, fresh",10.89472
+Uganda,"Cassava, fresh",43.90231
+Uganda,Maize (corn),34.4243
+Uganda,"Other vegetables, fresh n.e.c.",10.27566
+Uganda,Plantains and cooking bananas,34.5
+Uganda,Sugar cane,55.03
+Uganda,Sweet potatoes,14.84163
+United Republic of Tanzania,Bananas,33.95499
+United Republic of Tanzania,"Beans, dry",10.9693
+United Republic of Tanzania,"Cassava, fresh",83.72217
+United Republic of Tanzania,Maize (corn),62.73151
+United Republic of Tanzania,"Other vegetables, fresh n.e.c.",19.43845
+United Republic of Tanzania,Potatoes,10.80144
+United Republic of Tanzania,Rice,34.14815
+United Republic of Tanzania,"Rice, paddy (rice milled equivalent)",22.77682
+United Republic of Tanzania,Sugar cane,31.17812
+United Republic of Tanzania,Sweet potatoes,37.44093
+Zambia,"Cassava, fresh",41.023
+Zambia,Maize (corn),23.94907
+Zambia,Sugar cane,46.3
+Zimbabwe,Maize (corn),15.601
+Zimbabwe,Sugar cane,35.82994
