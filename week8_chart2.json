@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Wages UK",
+    "subtitle": "Average Weekly Earnings, Source: ONS.",
+    "subtitleFontSize": 10,
+    "subtitleFontStyle": "italic",
+    "anchor": "start"
+  },
+  "description": "Google's stock price over time.",
+  "data": {
+    "values": [
+      {"date": "Jan 20", "average weakly earnings": 545},
+      {"date": "Feb 20", "average weakly earnings": 546},
+      {"date": "Mar 20", "average weakly earnings": 542},
+      {"date": "Apr 20", "average weakly earnings": 527},
+      {"date": "May 20", "average weakly earnings": 528},
+      {"date": "Jun 20", "average weakly earnings": 530},
+      {"date": "Jul 20", "average weakly earnings": 540},
+      {"date": "Aug 20", "average weakly earnings": 550},
+      {"date": "Sep 20", "average weakly earnings": 557},
+      {"date": "Oct 20", "average weakly earnings": 562},
+      {"date": "Nov 20", "average weakly earnings": 570},
+      {"date": "Dec 20", "average weakly earnings": 567},
+      {"date": "Jan 21", "average weakly earnings": 570},
+      {"date": "Feb 21", "average weakly earnings": 568},
+      {"date": "Mar 21", "average weakly earnings": 559},
+      {"date": "Apr 21", "average weakly earnings": 575},
+      {"date": "May 21", "average weakly earnings": 580},
+      {"date": "Jun 21", "average weakly earnings": 576},
+      {"date": "Jul 21", "average weakly earnings": 580},
+      {"date": "Aug 21", "average weakly earnings": 582},
+      {"date": "Sep 21", "average weakly earnings": 585},
+      {"date": "Oct 21", "average weakly earnings": 588},
+      {"date": "Nov 21", "average weakly earnings": 590},
+      {"date": "Dec 21", "average weakly earnings": 600},
+      {"date": "Jan 22", "average weakly earnings": 600},
+      {"date": "Feb 22", "average weakly earnings": 601},
+      {"date": "Mar 22", "average weakly earnings": 614},
+      {"date": "Apr 22", "average weakly earnings": 604},
+      {"date": "May 22", "average weakly earnings": 605},
+      {"date": "Jun 22", "average weakly earnings": 612},
+      {"date": "Jul 22", "average weakly earnings": 614},
+      {"date": "Aug 22", "average weakly earnings": 618},
+      {"date": "Sep 22", "average weakly earnings": 621}
+    ]
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "date", "type": "nominal"},
+    "y": {"field": "average weakly earnings", "type": "quantitative"}
+  },
+  "config": {}
+}

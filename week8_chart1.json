@@ -1,0 +1,58 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Inactivity Rate",
+    "subtitle": " proportion of the population that is not in the labour force. Source: ONS.",
+    "subtitleFontSize": 10,
+    "subtitleFontStyle": "italic",
+    "anchor": "start"
+  },
+  "description": "Google's stock price over time.",
+  "data": {
+    "values": [
+      {"Date": "2020 JAN", "Inacitivty rate": 20.2},
+      {"Date": "2020 FEB", "Inacitivty rate": 20.4},
+      {"Date": "2020 MAR", "Inacitivty rate": 20.7},
+      {"Date": "2020 APR", "Inacitivty rate": 20.8},
+      {"Date": "2020 MAY", "Inacitivty rate": 21},
+      {"Date": "2020 JUN", "Inacitivty rate": 20.9},
+      {"Date": "2020 JUL", "Inacitivty rate": 21},
+      {"Date": "2020 AUG", "Inacitivty rate": 21.1},
+      {"Date": "2020 SEP", "Inacitivty rate": 21.1},
+      {"Date": "2020 OCT", "Inacitivty rate": 21},
+      {"Date": "2020 NOV", "Inacitivty rate": 21.2},
+      {"Date": "2020 DEC", "Inacitivty rate": 21.3},
+      {"Date": "2021 JAN", "Inacitivty rate": 21.2},
+      {"Date": "2021 FEB", "Inacitivty rate": 21.4},
+      {"Date": "2021 MAR", "Inacitivty rate": 21.4},
+      {"Date": "2021 APR", "Inacitivty rate": 21.4},
+      {"Date": "2021 MAY", "Inacitivty rate": 21.2},
+      {"Date": "2021 JUN", "Inacitivty rate": 21.2},
+      {"Date": "2021 JUL", "Inacitivty rate": 21.2},
+      {"Date": "2021 AUG", "Inacitivty rate": 21.2},
+      {"Date": "2021 SEP", "Inacitivty rate": 21.3},
+      {"Date": "2021 OCT", "Inacitivty rate": 21.3},
+      {"Date": "2021 NOV", "Inacitivty rate": 21.3},
+      {"Date": "2021 DEC", "Inacitivty rate": 21.4},
+      {"Date": "2022 JAN", "Inacitivty rate": 21.5},
+      {"Date": "2022 FEB", "Inacitivty rate": 21.4},
+      {"Date": "2022 MAR", "Inacitivty rate": 21.3},
+      {"Date": "2022 APR", "Inacitivty rate": 21.1},
+      {"Date": "2022 MAY", "Inacitivty rate": 21.4},
+      {"Date": "2022 JUN", "Inacitivty rate": 21.7},
+      {"Date": "2022 JUL", "Inacitivty rate": 21.7},
+      {"Date": "2022 AUG", "Inacitivty rate": 21.6},
+      {"Date": "2022 SEP", "Inacitivty rate": 21.5}
+    ]
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Date", "type": "temporal"},
+    "y": {
+      "field": "Inacitivty rate",
+      "type": "quantitative",
+      "scale": {"zero": false}
+    }
+  },
+  "config": {}
+}
