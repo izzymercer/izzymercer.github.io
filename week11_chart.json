@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/izzymercer/izzymercer.github.io/main/state_cluster.csv"
+  },
+  "width": 250,
+  "height": 350,
+  "title": {
+    "text": "USA states",
+    "subtitle": ["Source:https://simplemaps.com/data/us-cities"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "mark": {"type": "point", "filled": true, "size": 100, "opacity": 0.8},
+  "encoding": {
+    "x": {
+      "field": "lng",
+      "title": "Longitude",
+      "type": "quantitative",
+      "scale": {"zero": false},
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "lat",
+      "title": "Latitude",
+      "type": "quantitative",
+      "scale": {"zero": false},
+      "axis": {"grid": false}
+    },
+    "color": {
+      "field": "State_clusters",
+      "title": "US states",
+      "type": "nominal"
+    },
+    "tooltip": [{"field": "state_name", "type": "nominal", "title": "State"}]
+  },
+  "config": {}
+}
