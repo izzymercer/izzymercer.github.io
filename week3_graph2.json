@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
- "title": {
+  "title": {
     "text": "GDP per capita, PPP (current international $)",
     "subtitle": " Source: world bank",
     "subtitleFontSize": 10,
@@ -8,35 +8,155 @@
     "anchor": "start"
   },
   "data": {
-    "values": [{"Time": 1990, "country": "United Kingdom ", "values": 17084.5988}, {"Time": 1991, "country": "United Kingdom ", "values": 17413.59266}, {"Time": 1992, "country": "United Kingdom ", "values": 17833.57381}, {"Time": 1993, "country": "United Kingdom ", "values": 18666.0429}, {"Time": 1994, "country": "United Kingdom ", "values": 19747.53029}, {"Time": 1995, "country": "United Kingdom ", "values": 20617.43284}, {"Time": 1996, "country": "United Kingdom ", "values": 21968.92882}, {"Time": 1997, "country": "United Kingdom ", "values": 23049.61272}, {"Time": 1998, "country": "United Kingdom ", "values": 23683.5147}, {"Time": 1999, "country": "United Kingdom ", "values": 24463.49633}, {"Time": 2000, "country": "United Kingdom ", "values": 26472.19371}, {"Time": 2001, "country": "United Kingdom ", "values": 27807.16932}, {"Time": 2002, "country": "United Kingdom ", "values": 29062.12387}, {"Time": 2003, "country": "United Kingdom ", "values": 30355.28338}, {"Time": 2004, "country": "United Kingdom ", "values": 32058.41549}, {"Time": 2005, "country": "United Kingdom ", "values": 32747.35401}, {"Time": 2006, "country": "United Kingdom ", "values": 34845.59177}, {"Time": 2007, "country": "United Kingdom ", "values": 35695.29849}, {"Time": 2008, "country": "United Kingdom ", "values": 36863.58476}, {"Time": 2009, "country": "United Kingdom ", "values": 35212.42048}, {"Time": 2010, "country": "United Kingdom ", "values": 36576.58654}, {"Time": 2011, "country": "United Kingdom ", "values": 37379.29097}, {"Time": 2012, "country": "United Kingdom ", "values": 38514.02617}, {"Time": 2013, "country": "United Kingdom ", "values": 40218.74726}, {"Time": 2014, "country": "United Kingdom ", "values": 41580.60249}, {"Time": 2015, "country": "United Kingdom ", "values": 42912.87509}, {"Time": 2016, "country": "United Kingdom ", "values": 44635.29956}, {"Time": 2017, "country": "United Kingdom ", "values": 46372.3866}, {"Time": 2018, "country": "United Kingdom ", "values": 47573.48802}, {"Time": 2019, "country": "United Kingdom ", "values": 49041.46355}, {"Time": 1990, "country": "France ", "values": 17700.12913}, {"Time": 1991, "country": "France ", "values": 18328.55519}, {"Time": 1992, "country": "France ", "values": 18951.45349}, {"Time": 1993, "country": "France ", "values": 19195.12787}, {"Time": 1994, "country": "France ", "values": 19992.48608}, {"Time": 1995, "country": "France ", "values": 20766.08956}, {"Time": 1996, "country": "France ", "values": 21351.65349}, {"Time": 1997, "country": "France ", "values": 22241.84157}, {"Time": 1998, "country": "France ", "values": 23356.9239}, {"Time": 1999, "country": "France ", "values": 24304.40453}, {"Time": 2000, "country": "France ", "values": 26086.82975}, {"Time": 2001, "country": "France ", "values": 27485.59185}, {"Time": 2002, "country": "France ", "values": 28518.82522}, {"Time": 2003, "country": "France ", "values": 28167.22465}, {"Time": 2004, "country": "France ", "values": 29055.16632}, {"Time": 2005, "country": "France ", "values": 30494.21411}, {"Time": 2006, "country": "France ", "values": 32465.02827}, {"Time": 2007, "country": "France ", "values": 34118.40724}, {"Time": 2008, "country": "France ", "values": 35092.69431}, {"Time": 2009, "country": "France ", "values": 34676.00235}, {"Time": 2010, "country": "France ", "values": 35901.20819}, {"Time": 2011, "country": "France ", "values": 37439.23314}, {"Time": 2012, "country": "France ", "values": 37677.72679}, {"Time": 2013, "country": "France ", "values": 39521.69698}, {"Time": 2014, "country": "France ", "values": 40144.02683}, {"Time": 2015, "country": "France ", "values": 40849.99738}, {"Time": 2016, "country": "France ", "values": 42924.61363}, {"Time": 2017, "country": "France ", "values": 44577.06457}, {"Time": 2018, "country": "France ", "values": 46537.47404}, {"Time": 2019, "country": "France ", "values": 48971.08855}, {"Time": 1990, "country": "Italy ", "values": 18627.64397}, {"Time": 1991, "country": "Italy ", "values": 19540.32457}, {"Time": 1992, "country": "Italy ", "values": 20138.67054}, {"Time": 1993, "country": "Italy ", "values": 20427.7275}, {"Time": 1994, "country": "Italy ", "values": 21308.40224}, {"Time": 1995, "country": "Italy ", "values": 22382.89796}, {"Time": 1996, "country": "Italy ", "values": 23052.61895}, {"Time": 1997, "country": "Italy ", "values": 23875.83851}, {"Time": 1998, "country": "Italy ", "values": 25021.06529}, {"Time": 1999, "country": "Italy ", "values": 25602.38947}, {"Time": 2000, "country": "Italy ", "values": 27072.42136}, {"Time": 2001, "country": "Italy ", "values": 28033.73587}, {"Time": 2002, "country": "Italy ", "values": 28736.57711}, {"Time": 2003, "country": "Italy ", "values": 29196.9279}, {"Time": 2004, "country": "Italy ", "values": 29554.68909}, {"Time": 2005, "country": "Italy ", "values": 30130.64446}, {"Time": 2006, "country": "Italy ", "values": 32453.58371}, {"Time": 2007, "country": "Italy ", "values": 34141.20077}, {"Time": 2008, "country": "Italy ", "values": 35523.27131}, {"Time": 2009, "country": "Italy ", "values": 34602.89696}, {"Time": 2010, "country": "Italy ", "values": 35158.44184}, {"Time": 2011, "country": "Italy ", "values": 36598.01497}, {"Time": 2012, "country": "Italy ", "values": 36486.29679}, {"Time": 2013, "country": "Italy ", "values": 36314.6971}, {"Time": 2014, "country": "Italy ", "values": 36194.87392}, {"Time": 2015, "country": "Italy ", "values": 36899.38521}, {"Time": 2016, "country": "Italy ", "values": 39926.95466}, {"Time": 2017, "country": "Italy ", "values": 41581.12079}, {"Time": 2018, "country": "Italy ", "values": 43036.24378}, {"Time": 2019, "country": "Italy ", "values": 44376.1625}, {"Time": 1990, "country": "Germany ", "values": 19452.5734}, {"Time": 1991, "country": "Germany ", "values": 20984.24987}, {"Time": 1992, "country": "Germany ", "values": 21709.50134}, {"Time": 1993, "country": "Germany ", "values": 21862.80218}, {"Time": 1994, "country": "Germany ", "values": 22784.58147}, {"Time": 1995, "country": "Germany ", "values": 23552.25332}, {"Time": 1996, "country": "Germany ", "values": 24071.8978}, {"Time": 1997, "country": "Germany ", "values": 24572.68842}, {"Time": 1998, "country": "Germany ", "values": 25345.06446}, {"Time": 1999, "country": "Germany ", "values": 26291.21108}, {"Time": 2000, "country": "Germany ", "values": 27199.04409}, {"Time": 2001, "country": "Germany ", "values": 28368.54328}, {"Time": 2002, "country": "Germany ", "values": 29178.63747}, {"Time": 2003, "country": "Germany ", "values": 29908.13953}, {"Time": 2004, "country": "Germany ", "values": 31333.8363}, {"Time": 2005, "country": "Germany ", "values": 31794.09601}, {"Time": 2006, "country": "Germany ", "values": 34160.34493}, {"Time": 2007, "country": "Germany ", "values": 36287.48224}, {"Time": 2008, "country": "Germany ", "values": 37802.38743}, {"Time": 2009, "country": "Germany ", "values": 36815.84405}, {"Time": 2010, "country": "Germany ", "values": 38952.6946}, {"Time": 2011, "country": "Germany ", "values": 42541.53109}, {"Time": 2012, "country": "Germany ", "values": 43359.61483}, {"Time": 2013, "country": "Germany ", "values": 44993.89275}, {"Time": 2014, "country": "Germany ", "values": 47011.55109}, {"Time": 2015, "country": "Germany ", "values": 47609.781}, {"Time": 2016, "country": "Germany ", "values": 50579.68393}, {"Time": 2017, "country": "Germany ", "values": 53071.45557}, {"Time": 2018, "country": "Germany ", "values": 55235.3663}, {"Time": 2019, "country": "Germany ", "values": 55652.88749}]
+    "values": [
+      {"Time": 1990, "country": "United Kingdom ", "values": 17084.5988},
+      {"Time": 1991, "country": "United Kingdom ", "values": 17413.59266},
+      {"Time": 1992, "country": "United Kingdom ", "values": 17833.57381},
+      {"Time": 1993, "country": "United Kingdom ", "values": 18666.0429},
+      {"Time": 1994, "country": "United Kingdom ", "values": 19747.53029},
+      {"Time": 1995, "country": "United Kingdom ", "values": 20617.43284},
+      {"Time": 1996, "country": "United Kingdom ", "values": 21968.92882},
+      {"Time": 1997, "country": "United Kingdom ", "values": 23049.61272},
+      {"Time": 1998, "country": "United Kingdom ", "values": 23683.5147},
+      {"Time": 1999, "country": "United Kingdom ", "values": 24463.49633},
+      {"Time": 2000, "country": "United Kingdom ", "values": 26472.19371},
+      {"Time": 2001, "country": "United Kingdom ", "values": 27807.16932},
+      {"Time": 2002, "country": "United Kingdom ", "values": 29062.12387},
+      {"Time": 2003, "country": "United Kingdom ", "values": 30355.28338},
+      {"Time": 2004, "country": "United Kingdom ", "values": 32058.41549},
+      {"Time": 2005, "country": "United Kingdom ", "values": 32747.35401},
+      {"Time": 2006, "country": "United Kingdom ", "values": 34845.59177},
+      {"Time": 2007, "country": "United Kingdom ", "values": 35695.29849},
+      {"Time": 2008, "country": "United Kingdom ", "values": 36863.58476},
+      {"Time": 2009, "country": "United Kingdom ", "values": 35212.42048},
+      {"Time": 2010, "country": "United Kingdom ", "values": 36576.58654},
+      {"Time": 2011, "country": "United Kingdom ", "values": 37379.29097},
+      {"Time": 2012, "country": "United Kingdom ", "values": 38514.02617},
+      {"Time": 2013, "country": "United Kingdom ", "values": 40218.74726},
+      {"Time": 2014, "country": "United Kingdom ", "values": 41580.60249},
+      {"Time": 2015, "country": "United Kingdom ", "values": 42912.87509},
+      {"Time": 2016, "country": "United Kingdom ", "values": 44635.29956},
+      {"Time": 2017, "country": "United Kingdom ", "values": 46372.3866},
+      {"Time": 2018, "country": "United Kingdom ", "values": 47573.48802},
+      {"Time": 2019, "country": "United Kingdom ", "values": 49041.46355},
+      {"Time": 1990, "country": "France ", "values": 17700.12913},
+      {"Time": 1991, "country": "France ", "values": 18328.55519},
+      {"Time": 1992, "country": "France ", "values": 18951.45349},
+      {"Time": 1993, "country": "France ", "values": 19195.12787},
+      {"Time": 1994, "country": "France ", "values": 19992.48608},
+      {"Time": 1995, "country": "France ", "values": 20766.08956},
+      {"Time": 1996, "country": "France ", "values": 21351.65349},
+      {"Time": 1997, "country": "France ", "values": 22241.84157},
+      {"Time": 1998, "country": "France ", "values": 23356.9239},
+      {"Time": 1999, "country": "France ", "values": 24304.40453},
+      {"Time": 2000, "country": "France ", "values": 26086.82975},
+      {"Time": 2001, "country": "France ", "values": 27485.59185},
+      {"Time": 2002, "country": "France ", "values": 28518.82522},
+      {"Time": 2003, "country": "France ", "values": 28167.22465},
+      {"Time": 2004, "country": "France ", "values": 29055.16632},
+      {"Time": 2005, "country": "France ", "values": 30494.21411},
+      {"Time": 2006, "country": "France ", "values": 32465.02827},
+      {"Time": 2007, "country": "France ", "values": 34118.40724},
+      {"Time": 2008, "country": "France ", "values": 35092.69431},
+      {"Time": 2009, "country": "France ", "values": 34676.00235},
+      {"Time": 2010, "country": "France ", "values": 35901.20819},
+      {"Time": 2011, "country": "France ", "values": 37439.23314},
+      {"Time": 2012, "country": "France ", "values": 37677.72679},
+      {"Time": 2013, "country": "France ", "values": 39521.69698},
+      {"Time": 2014, "country": "France ", "values": 40144.02683},
+      {"Time": 2015, "country": "France ", "values": 40849.99738},
+      {"Time": 2016, "country": "France ", "values": 42924.61363},
+      {"Time": 2017, "country": "France ", "values": 44577.06457},
+      {"Time": 2018, "country": "France ", "values": 46537.47404},
+      {"Time": 2019, "country": "France ", "values": 48971.08855},
+      {"Time": 1990, "country": "Italy ", "values": 18627.64397},
+      {"Time": 1991, "country": "Italy ", "values": 19540.32457},
+      {"Time": 1992, "country": "Italy ", "values": 20138.67054},
+      {"Time": 1993, "country": "Italy ", "values": 20427.7275},
+      {"Time": 1994, "country": "Italy ", "values": 21308.40224},
+      {"Time": 1995, "country": "Italy ", "values": 22382.89796},
+      {"Time": 1996, "country": "Italy ", "values": 23052.61895},
+      {"Time": 1997, "country": "Italy ", "values": 23875.83851},
+      {"Time": 1998, "country": "Italy ", "values": 25021.06529},
+      {"Time": 1999, "country": "Italy ", "values": 25602.38947},
+      {"Time": 2000, "country": "Italy ", "values": 27072.42136},
+      {"Time": 2001, "country": "Italy ", "values": 28033.73587},
+      {"Time": 2002, "country": "Italy ", "values": 28736.57711},
+      {"Time": 2003, "country": "Italy ", "values": 29196.9279},
+      {"Time": 2004, "country": "Italy ", "values": 29554.68909},
+      {"Time": 2005, "country": "Italy ", "values": 30130.64446},
+      {"Time": 2006, "country": "Italy ", "values": 32453.58371},
+      {"Time": 2007, "country": "Italy ", "values": 34141.20077},
+      {"Time": 2008, "country": "Italy ", "values": 35523.27131},
+      {"Time": 2009, "country": "Italy ", "values": 34602.89696},
+      {"Time": 2010, "country": "Italy ", "values": 35158.44184},
+      {"Time": 2011, "country": "Italy ", "values": 36598.01497},
+      {"Time": 2012, "country": "Italy ", "values": 36486.29679},
+      {"Time": 2013, "country": "Italy ", "values": 36314.6971},
+      {"Time": 2014, "country": "Italy ", "values": 36194.87392},
+      {"Time": 2015, "country": "Italy ", "values": 36899.38521},
+      {"Time": 2016, "country": "Italy ", "values": 39926.95466},
+      {"Time": 2017, "country": "Italy ", "values": 41581.12079},
+      {"Time": 2018, "country": "Italy ", "values": 43036.24378},
+      {"Time": 2019, "country": "Italy ", "values": 44376.1625},
+      {"Time": 1990, "country": "Germany ", "values": 19452.5734},
+      {"Time": 1991, "country": "Germany ", "values": 20984.24987},
+      {"Time": 1992, "country": "Germany ", "values": 21709.50134},
+      {"Time": 1993, "country": "Germany ", "values": 21862.80218},
+      {"Time": 1994, "country": "Germany ", "values": 22784.58147},
+      {"Time": 1995, "country": "Germany ", "values": 23552.25332},
+      {"Time": 1996, "country": "Germany ", "values": 24071.8978},
+      {"Time": 1997, "country": "Germany ", "values": 24572.68842},
+      {"Time": 1998, "country": "Germany ", "values": 25345.06446},
+      {"Time": 1999, "country": "Germany ", "values": 26291.21108},
+      {"Time": 2000, "country": "Germany ", "values": 27199.04409},
+      {"Time": 2001, "country": "Germany ", "values": 28368.54328},
+      {"Time": 2002, "country": "Germany ", "values": 29178.63747},
+      {"Time": 2003, "country": "Germany ", "values": 29908.13953},
+      {"Time": 2004, "country": "Germany ", "values": 31333.8363},
+      {"Time": 2005, "country": "Germany ", "values": 31794.09601},
+      {"Time": 2006, "country": "Germany ", "values": 34160.34493},
+      {"Time": 2007, "country": "Germany ", "values": 36287.48224},
+      {"Time": 2008, "country": "Germany ", "values": 37802.38743},
+      {"Time": 2009, "country": "Germany ", "values": 36815.84405},
+      {"Time": 2010, "country": "Germany ", "values": 38952.6946},
+      {"Time": 2011, "country": "Germany ", "values": 42541.53109},
+      {"Time": 2012, "country": "Germany ", "values": 43359.61483},
+      {"Time": 2013, "country": "Germany ", "values": 44993.89275},
+      {"Time": 2014, "country": "Germany ", "values": 47011.55109},
+      {"Time": 2015, "country": "Germany ", "values": 47609.781},
+      {"Time": 2016, "country": "Germany ", "values": 50579.68393},
+      {"Time": 2017, "country": "Germany ", "values": 53071.45557},
+      {"Time": 2018, "country": "Germany ", "values": 55235.3663},
+      {"Time": 2019, "country": "Germany ", "values": 55652.88749}
+    ]
   },
-
-  "transform": [
-    {"filter": "datum.Time == yearInput"}
-  ],
-
-  "width":"container",
-  "height":"container",
-
+  "transform": [{"filter": "datum.Time == yearInput"}],
+  "width": "container",
+  "height": "container",
   "params": [
-    {"name":"yearInput", "value":1990,
-    "bind":{
-      "input": "range",
-      "min":1997,
-      "max": 2019,
-      "step": 1,
-      "name": "Year: "
+    {
+      "name": "yearInput",
+      "value": 1990,
+      "bind": {
+        "input": "range",
+        "min": 1997,
+        "max": 2019,
+        "step": 1,
+        "name": "Year: "
       }
-      }
+    }
   ],
-
-  "mark": {
-    "type":"bar"
-    },
-
+  "mark": {"type": "bar"},
   "encoding": {
-    "x": {"field": "country", "type": "nominal", "axis": {"labelAngle": 290}, "title":"Country"},
+    "x": {
+      "field": "country",
+      "type": "nominal",
+      "axis": {"labelAngle": 290},
+      "title": "Country"
+    },
     "y": {"field": "values", "type": "quantitative"},
-    "color": {"field": "country", "type": "nominal", "legend":null}
-  }
+    "color": {"field": "country", "type": "nominal", "legend": null}
+  },
+  "config": {}
 }
