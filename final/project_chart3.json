@@ -1,11 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Levels",
-    "subtitle": "A base map of Africa",
+    "text": "Average yearly temperature - Africa",
+    "subtitle": " Average temperature in the countries taken daily over the years 1961–1990. Source: https://en.wikipedia.org/wiki/List_of_countries_by_average_yearly_temperature",
     "anchor": "start",
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10
+    "subtitleFontSize": 8
   },
   "width": 400,
   "height": 400,
@@ -19,10 +19,10 @@
       "lookup": "properties.name",
       "from": {
         "data": {
-          "url": "https://raw.githubusercontent.com/izzymercer/izzymercer.github.io/main/data.chart3.csv"
+          "url": "https://raw.githubusercontent.com/izzymercer/izzymercer.github.io/main/final/temp_data2.json"
         },
-        "key": "Country",
-        "fields": ["Value"]
+        "key": "country",
+        "fields": ["yearly-average-temp"]
       }
     }
   ],
@@ -30,15 +30,12 @@
   "encoding": {
     "tooltip": [
       {"field": "properties.name", "type": "nominal", "title": "Country"},
-      {
-        "field": "Value",
-        "title": "Prevalence of moderate or severe food insecurity(3-year average)"
-      }
+      {"field": "yearly-average-temp", "title": "Yearly average temp (Celsius)"}
     ],
     "color": {
-      "field": "Value",
+      "field": "yearly-average-temp",
       "type": "quantitative",
-      "title": "Prevalence of insecurity"
+      "title": "Average temp (celsius)"
     }
   },
   "config": {}

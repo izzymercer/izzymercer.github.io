@@ -1,0 +1,95 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+ "title": {
+    "text": "Resilience to Climate Change: SSA vs High income countries 2020.",
+    "subtitle": "Measuring countries vulnerability and readiness to adapt to the negative impact of climate change. Source: https://gain-new.crc.nd.edu/ranking",
+    "anchor": "start",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 8
+  },
+  "width": 300,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/izzymercer/izzymercer.github.io/main/final/chart2_data.csv"
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true
+      },
+      "encoding": {
+        "x": {
+          "field": "Vulnerability",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Readiness",
+          "type": "quantitative"
+        }, 
+        "color": {"field": "Region", "type": "nominal"},
+        "shape": {"field": "Region", "type": "nominal"},
+
+          "tooltip": [
+    {
+      "field": "Vulnerability",
+      "format": "%"
+    },
+    {
+      "field": "Readiness",
+      "format": "%"
+    }, 
+    {
+  "field": "Country"
+    },
+    {
+  "field": "Region"
+    }
+  ]
+      }
+    },
+    {
+      "mark": {
+        "type": "line", "color": "#13bee0", "size": 3},
+   
+      "transform": [
+        {
+          "regression": "Readiness",
+          "on": "Vulnerability"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "Vulnerability",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Readiness",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "Readiness",
+          "on": "Vulnerability",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+     "mark": {
+        "type": "text",
+        "color": "#1a7feb",
+        "x": 200,
+        "align": "center",
+        "y": 20,
+        "size": 15
+      },
+      "encoding": {
+        "text": {"type": "nominal", "field": "R2"}
+      }
+    }
+  ]
+}
