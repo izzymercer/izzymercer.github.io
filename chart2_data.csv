@@ -1,0 +1,39 @@
+Country,Income group,Readiness,Vulnerability,Region
+Angola,Lower middle,0.263,0.505,Sub Sahran Africa
+Benin,Low,0.337,0.572,Sub Sahran Africa
+Botswana,Upper middle,0.433,0.466,Sub Sahran Africa
+Burundi,Low,0.268,0.558,Sub Sahran Africa
+Chad,Low,0.192,0.658,Sub Sahran Africa
+Ethiopia,Low,0.306,0.563,Sub Sahran Africa
+Gambia,Low,0.329,0.545,Sub Sahran Africa
+Ghana,Lower middle,0.351,0.471,Sub Sahran Africa
+Guinea,Low,0.313,0.532,Sub Sahran Africa
+Kenya,Low,0.299,0.525,Sub Sahran Africa
+Lesotho,Low,0.311,0.484,Sub Sahran Africa
+Liberia,Low,0.278,0.603,Sub Sahran Africa
+Madagascar,Low,0.266,0.561,Sub Sahran Africa
+Malawi,Low,0.288,0.548,Sub Sahran Africa
+Mali,Low,0.292,0.598,Sub Sahran Africa
+Mauritius,Upper middle,0.568,0.429,Sub Sahran Africa
+Mozambique,Low,0.269,0.517,Sub Sahran Africa
+Namibia,Lower middle,0.377,0.474,Sub Sahran Africa
+Nigeria,Lower middle,0.251,0.5,Sub Sahran Africa
+Rwanda,Low,0.426,0.586,Sub Sahran Africa
+Senegal,Low,0.35,0.532,Sub Sahran Africa
+Sierra Leone,Low,0.316,0.563,Sub Sahran Africa
+Togo,Low,0.349,0.521,Sub Sahran Africa
+Uganda,Low,0.288,0.58,Sub Sahran Africa
+Zambia,Low,0.321,0.521,Sub Sahran Africa
+Zimbabwe,Low,0.216,0.554,Sub Sahran Africa
+Norway,Upper,0.765,0.257,Europe
+Finland,Upper,0.751,0.31,Europe
+United Kingdom,Upper,0.683,0.296,Europe
+Sweden,Upper,0.723,0.296,Europe
+Switzerland,Upper,0.694,0.255,Europe
+Denmark,Upper,0.775,0.354,Europe
+Austria,Upper,0.687,0.284,Europe
+Germany,Upper,0.69,0.293,Europe
+France,Upper,0.649,0.31,Europe
+Luxembourg,Upper,0.672,0.301,Europe
+Iceland,Upper,0.717,0.321,Europe
+Netherlands,Upper,0.684,0.351,Europe

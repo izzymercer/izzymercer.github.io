@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/izzymercer/izzymercer.github.io/main/final/chart1_data_edited%20(1).csv"
+  },
+  "mark": "bar",
+  "width": 250,
+  "height": 300,
+  "title": {
+    "text": "Most popular crops produced in SSA 2018.",
+    "subtitle": "Production of crops in 100,000 tonnes. Source: FAOSTAT.",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "encoding": {
+    "y": {"field": "Country", "sort": "-x", "type": "ordinal", "title": null},
+    "x": {"field": "Value", "title": "100,000 tonnes", "type": "quantitative"},
+    "color": {
+      "field": "Item",
+      "type": "nominal",
+      "legend": {"orient": "bottom-right"},
+      "scale": {
+        "domain": [
+          "Cassava",
+          "fresh",
+          "Maize (corn)",
+          "Sweet potatoes",
+          "Sugar cane",
+          "Rice"
+        ],
+        "scheme": "category20c"
+      }
+    },
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Item", "type": "nominal"},
+      {"field": "Value", "type": "quantitative"}
+    ]
+  }
+}
