@@ -1,98 +1,145 @@
-/*import fonts*/
+/*this is my project page CSS file */
 
+/* CSS files can can also be used to access e.g. fonts */
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 
-/*headers*/
+/* CSS files can can also be used to access e.g. fonts */
 
-h1 {
-	color: rgba(73, 87, 235, 0.829);
-  border-color: white;
-	font-size: 40px;
-	margin-top: 30px;
-	margin-bottom: 0px;	
-	text-align: center;
-	font-weight: bold;
-	font-family: 'Poppins', sans-serif ;
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color:rgb(250, 243, 250);
+  font-family: 'Lato', sans-serif;
+  max-width: 100%;
+  margin: auto;
 }
 
-/*subtitles*/
-
-h2 {
-	color: rgb(59, 60, 61);
-	font-size: 15px;
-    font-weight: 500;
-	margin-top: 10px;
-	margin-bottom: 10px;	
-	text-align: center;
-	font-family: 'Poppins', sans-serif ;
+h1{
+  font-family: 'Lato', sans-serif;
+  color: rgb(18, 98, 156);
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 40px;
 }
 
-/*heading of project*/ 
+h2{
+  color: rgb(0, 0, 0);
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
 
 h3{
-    color:rgb(0, 0, 0);
-    font-family: 'Poppins', sans-serif ;
-    font-size: 27px;
-    text-align: center;
- }
-
- /*Chart headings*/
-
- h4{
-    color:rgb(73, 87, 235, 0.829);
-    font-family: 'Poppins', sans-serif ;
-    font-size: 17px;
-    text-align: center;
-  }
-
-  /*footnotes*/
-
-  h5{
-    color:rgb(59, 60, 61);
-    font-family: 'Poppins', sans-serif ;
-    font-size: 10px;
-    text-align: center;
-  }
-
-  body{
-    background-color:white;
-    max-width: 90%;
-    margin: auto;
- }
- 
-
-p{
-  color: rgb(59, 60, 61);
-  font-size: 20px;
-  margin-top: 10px;
-  text-align: center;
-  font-weight: normal;
-  font-family: 'Poppins', sans-serif ;
-  margin-bottom: 10px;
-  clear: left;
-  width: 100%;
+  color: rgb(18, 98, 156);
+  font-family: 'Lato', sans-serif ;
+  font-size: 30px;
 }
 
+h4{
+  font-family: 'Lato', sans-serif;
+  color: rgb(18, 98, 156);
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
 
-  /*Body*/ 
+p {
+font-family: 'Lato', sans-serif;
+color: rgb(0, 0, 0);
+text-align: center;
+font-size: 15px;
+margin-bottom: 10px;
+clear: left;
+width: 100%;
+letter-spacing: 1px;
+}
 
-  .chartCSS {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    gap: 30px 30px;
-    border: 1.5px solid rgb(0, 64, 128);
-    margin-top: 30px;
-    border-style: solid;
-    border-color:rgb(0, 64, 128);
-    padding: 30px;
-    border-radius: 25px;
-  }
-  
-/*week5 CSS*/
+/*hyperlinks*/
+a:link {
+  color: #5ad5fe;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #5ad5fe;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFFFFF;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5ad5fe;
+}
+
+footer {
+  height: 100px
+}
+
+.pagecontainer {
+ display: grid;
+
+}
+
+.main-body{
+  margin-top:170px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+
+}
+.container1 {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  position: relative;
+  left: 0px;
+  width: 100%;
+  text-align: justify;
+  border: 1.5px solid #5ad5fe;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 5px;
+  right: 0px;
+  margin-top: 5px;
+}
+
+.container2 {
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	position: relative;
+  	left: 120px;
+  	width: 80%;
+  	text-align: justify;
+	border: 3px hidden;
+	padding: 30px;
+	right: 0px;
+}
+
+.box {
+  box-sizing: border-box;
+  background-color: none;
+  width: auto;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  max-width: 500px;
+}
+
+/*week 5 container*/
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -122,5 +169,92 @@ p{
   font-size: 10px;
   margin: 0 auto;
   padding-bottom: 75px;
+}
+
+
+/* --------------------------------------CONTENT IN BODY----------------------------------------------*/
+
+/* Flexbox container with home page graphs */
+
+
+.navbuttons {
+display:flex;
+justify-content:center;
+margin-bottom: 10px;
+margin-top: 10px;
+width: 100%;
+}
+
+/* Buttons inspired by Nia Thomas*/
+
+/* Button style */
+container {
+align-content: center;
+justify-content: center;
+flex-flow: row wrap;
+border-style: solid;
+border-width: 2px;
+border-radius: 3px;
+border-color: #ffffff;
+padding: 60px;
+clear:both;
+}
+.button{
+align-content: center;
+flex-flow: center;
+border-radius: 4px;
+background-color: #5ad5fe;
+border: 2px solid #ffffff;
+color: #ffffff;
+text-align: center;
+font-size: 28px;
+padding: 20px;
+width: 240px;
+cursor: pointer;
+margin: 5px;
+transition: color 1s;
+font-family: 'Poppins', sans-serif ;
+}
+
+.button1{
+  align-content: center;
+  flex-flow: center;
+  border-radius: 4px;
+  background-color: #5ad5fe;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 20%;
+  cursor: pointer;
+  margin: 5px;
+  transition: color 1s;
+  font-family: 'Poppins', sans-serif;
+  }
+
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+
+}
+.button:hover span {
+padding-right: 25px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
 }
 

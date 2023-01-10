@@ -1,14 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.6.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <h1>Data Science Project</h1> 
+    <h2>Izzy Mercer | 1944410</h2>
 </head>
+
 <body>
-    
- <h1>This is my project</h1> 
-    
+
+  
+<!--Navigation bar-->
+<div class="navbuttons">
+    <button class="button" style="vertical-align:middle" onclick="location.href='index.html'"><span>Home</span></button>
+    <button class="button" style="vertical-align:middle" onclick="location.href='portfolio1.html'"><span>Portfolio </span></button>
+    <button class="button" style="vertical-align:middle" onclick="location.href='project.html'"><span>Project </span></button>
+    <button class="button" style="vertical-align:middle" onclick="location.href='https://github.com/niafthomas/niafthomas.github.io'"><span>GitHub </span></button>
+</div>
+
+<!--title--> 
+
+<container class="container1">
+</container>
+<h4>How and why climate change is intensifying food insecurity in the SSA region.</h4>
+<container class="container1">
+</container>
+
+ 
+
+<!--motivation--> 
+
+<container class="container1">
+    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 700;">Project aims</span></h3>
+<p>Droughts, floods and increasing temperatures will increase food insecurity by impending agriculture productivity exacerbated by Covid-19 and Russia’s war on Ukraine. In turn this will have negative impact on young children’s development and each country’s economic capacity meaning there needs to be more global awareness towards the SSA region to prevent to help control the inevitable consequences from climate change. 
+    I will aim to analyse why the impact is the most severe in this region and why it should be addressed. 
+    </p>
+</container>
+
+<container class="container1">
+</container>
+
+<!--first section--> 
+
+<container class="container2">
+    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 700;">Insecurity</span></h3>
+    <p> ///// </p>
+</container>
+
+<container class="container2">
+        <div class="chart" id="chart30">
+            <script>
+              var myChart30 = "project_motivation.json";
+              vegaEmbed('#chart30', myChart30);
+            </script>
+        </div>
+      </div>
+</container>
+
+<!--second section--> 
+
+<container class="container2">
+    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 700;">Crops Produced.</span></h3>
+    <p> ///// </p>
+</container>
+
+<container class="container2">
+        <div class="chart" id="chart31">
+            <script>
+              var myChart31 = "project_chart1.json";
+              vegaEmbed('#chart31', myChart31);
+            </script>
+        </div>
+        <div class="navbuttons">
+            <button class="button1" style="vertical-align:middle" onclick="location.href='https://github.com/izzymercer/izzymercer.github.io/blob/4c8760cd3d62ef58c848ac9e0ade290958fc60d6/Copy_of_project_chart1.ipynb'"><span>Colab</span></button>
+      </div>
+
+</container>
+
+<!--third section--> 
+
+<container class="container2">
+    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 700;">Resilliance to climate change.</span></h3>
+    <p> Countries SSA region are most at risk as they are both least able to leverage investments and convent them to adaption actions as well as being most sensitive to climate change; especially when comparing to high income countries in Europe.</p>
+</container>
+
+<container class="container2">
+        <div class="chart" id="chart32">
+            <script>
+              var myChart32 = "project_chart6.json";
+              vegaEmbed('#chart32', myChart32);
+            </script>
+        </div>
+      </div>
+</container>
+
+</container>
+
+<container class="container1">
+    <p>To create this chart i scarped data on countries <a href="https://www.bing.com/search?q=ND-GAIN+Country+Index+rankings+%7C+ND-GAIN+Index&cvid=1522163e0faa4808a124d4a22300ec3d&aqs=edge..69i57j69i61.544j0j1&pglt=41&FORM=ANNTA1&PC=LCTS">ND-GAIN Index's</a>. Then regressed each countries 'Readiness' on 'Vunrability'</a></p>
+
+<div class="navbuttons">
+    <button class="button1" style="vertical-align:middle" onclick="location.href='https://github.com/izzymercer/izzymercer.github.io/blob/4c8760cd3d62ef58c848ac9e0ade290958fc60d6/chart2.ipynb'"><span>Colab</span></button>
+</div>
+
+
+</container>
+
+
+<!--fourth section--> 
+
+<container class="container2">
+    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 700;">Reliance on agriculture</span></h3>
+    <p>////</p>
+</container>
+
+<container class="container2">
+        <div class="chart" id="chart33">
+            <script>
+              var myChart33 = "project_chart6.json";
+              vegaEmbed('#chart33', myChart33);
+            </script>
+        </div>
+      </div>
+</container>
+
+</container>
+
+<container class="container1">
+    <p>////</p>
+
+<div class="navbuttons">
+    <button class="button1" style="vertical-align:middle" onclick="location.href='https://github.com/izzymercer/izzymercer.github.io/blob/4c8760cd3d62ef58c848ac9e0ade290958fc60d6/chart6.ipynb'"><span>Colab</span></button>
+</div>
+
+</container>
+
 </body>
 </html>
+
