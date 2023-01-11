@@ -96,7 +96,8 @@
         "tooltip": [
           {"field": "Region", "type": "nominal", "title": "Region"},
           {"field": "Country Name", "type": "nominal", "title": "Country"},
-          {"field": "log_GDP_pc", "type": "nominal", "title": "GDP per Capita"},
+          {"field": "GDP pc", "type": "nominal", "title": "GDP per Capita"},
+          {"field": "Income Group", "type": "nominal", "title": "Income Group"},
           {
             "field": "AG",
             "type": "nominal",

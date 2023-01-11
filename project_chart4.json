@@ -1,16 +1,16 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "",
+  "description": "This chart shows the change in the main components of electricity in the UK. Data was downloaded from https://ourworldindata.org/electricity-mix.",
   "title": {
-    "text": "Related health outcomes in SSA: Undernourishment.",
-    "subtitle": "Prevalence of undernourishment (% of population) 2010-2020, Source: world bank.",
+    "text": "Related health outcomes in SSA: Prevalence of stunting.",
+    "subtitle": "Prevalence of stunting, height for age (% of children under 5), 2010-2020, Source: World Bank",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
     "color": "black"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/izzymercer/izzymercer.github.io/main/chart_5.csv"
+    "url": "https://raw.githubusercontent.com/izzymercer/izzymercer.github.io/main/data.csv"
   },
   "height": 300,
   "width": 290,
@@ -20,15 +20,16 @@
   "selection": {
     "Type": {
       "type": "single",
-      "fields": ["Country"],
+      "fields": ["country"],
       "bind": {
         "input": "select",
         "options": [
           null,
-          "Botswana",
-          "Congo, Rep",
-          "Ethiopia",
-          "Kenya",
+          "Zambia",
+          "Congo, Dem. Rep.",
+          "Sierra Leone",
+          "Malawi",
+          "Zimbabwe",
           "Angola"
         ],
         "name": "Pick Country"
@@ -52,7 +53,7 @@
       "sort": []
     },
     "color": {
-      "field": "Country",
+      "field": "country",
       "type": "nominal",
       "legend": {"orient": "top-right", "columns": 2},
       "sort": [],
@@ -66,7 +67,7 @@
         "title": "Year"
       },
       {"field": "value", "type": "quantitative", "title": "value"},
-      {"field": "Country", "type": "nominal", "title": "country"}
+      {"field": "country", "type": "nominal", "title": "country"}
     ]
   }
 }
