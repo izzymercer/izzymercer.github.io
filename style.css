@@ -11,7 +11,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-color:rgb(250, 243, 250);
+  background-color: rgb(250, 243, 250);
   font-family: 'Lato', sans-serif;
   max-width: 100%;
   margin: auto;
@@ -58,12 +58,19 @@ width: 100%;
 letter-spacing: 1px;
 }
 
+.containertext{
+  align-items: center;
+  padding: 0px 5px 0px 5px;
+}
+
+
 /*hyperlinks*/
 a:link {
   color: #5ad5fe;
   background-color: transparent;
   text-decoration: none;
 }
+
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -111,21 +118,12 @@ footer {
   padding: 5px;
   right: 0px;
   margin-top: 5px;
-}
-
-.container2 {
-	align-content: center;
-	display: flex;
-	justify-content: center;
-	flex-flow: row wrap;
-	position: relative;
+  position: relative;
   	left: 120px;
   	width: 80%;
   	text-align: justify;
-	border: 3px hidden;
-	padding: 30px;
-	right: 0px;
 }
+
 
 .box {
   box-sizing: border-box;
@@ -162,6 +160,32 @@ footer {
   margin: 0 auto;
 }
 
+.chart1{
+  background-color: white;
+  width: 700px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: grey;
+  display: block;
+  margin: 0 auto;
+}
+
+.chart2{
+  background-color: white;
+  width: 500x;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: grey;
+  display: block;
+  margin: 0 auto;
+}
+
+.chart_block{
+  text-align: center;
+  padding: 0px 5% 0px 5%;
+}
 
 /*week 5 container*/
 .grid-container {
@@ -174,7 +198,7 @@ footer {
   text-align: center !important;
   align-content: center;
   margin:auto;
-  max-width: 1200px;
+  max-width: 500px;
   margin-bottom: 10px !important;
   margin-top: 10px !important;
   font-size: xx-small;
@@ -261,11 +285,11 @@ font-family: 'Poppins', sans-serif ;
     font-size: 15px;
     border-width: 2px;
     border-style: solid;
-    border-color: #4484CE;
+    border-color:  #5ad5fe;
     border-radius: 5px;
     width: 100px;
     margin: 10px 10px 20px 10px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
     transition: background-color 1s ease;
 }

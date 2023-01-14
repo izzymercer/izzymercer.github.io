@@ -21,14 +21,14 @@
     <button class="button" style="vertical-align:middle" onclick="location.href='index.html'"><span>Home</span></button>
     <button class="button" style="vertical-align:middle" onclick="location.href='portfolio.html'"><span>Portfolio </span></button>
     <button class="button" style="vertical-align:middle" onclick="location.href='project.html'"><span>Project </span></button>
-    <button class="button" style="vertical-align:middle" onclick="location.href='https://github.com/niafthomas/niafthomas.github.io'"><span>GitHub </span></button>
+    <button class="button" style="vertical-align:middle" onclick="location.href='https://github.com/izzymercer/izzymercer.github.io'"><span>GitHub </span></button>
 </div>
 
 <!--title--> 
 
 <container class="container1">
 </container>
-<h4>How and why climate change is intensifying food insecurity in the SSA region.</h4>
+<h4>Climate change and food insecurity in Sub-Saharan Africa</h4>
 <container class="container1">
 </container>
 
@@ -37,31 +37,42 @@
 <!--motivation--> 
 
 <container class="container1">
-    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 700;">Aims</span></h3>
-<p>Droughts, floods and increasing temperatures will increase food insecurity by impending agriculture productivity exacerbated by Covid-19 and Russia’s war on Ukraine. In turn this will have negative impact on young children’s development and each country’s economic capacity meaning there needs to be more global awareness towards the SSA region to prevent to help control the inevitable consequences from climate change. 
-    I will aim to analyse why the impact is the most severe in this region and why it should be addressed. 
+    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 600;">Project aims</span></h3>
+
+    <p>As the severity of climate change increases agriculture productivity in Sub-Saharan Africa (SSA) is impended and made worse by covid-19 and the Ukraine war. In this project I will seek to investigate. </p>
+
+    <p> a) The relationship between climate change and food insecurity. 
+        b) Why SSA is the region most affected.
     </p>
+    </div>
+</div>
+
 </container>
 
 <!--first section--> 
 
 <container class="container1">
-    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 700;">Insecurity</span></h3>
-    <p> ///// </p>
-
-        <div class="chart" id="chart30">
+    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 600;">Food insecurity</span></h3>
+    <p>The FAO defines food insecurity as a ‘lack of regular access to enough safe and nutritious food for normal growth and development and an active and healthy life.’It is estimated that 724 million people in SSA were severely or moderately affected by this issue in 2020. My choropleth map shows levels of food insecurity in SSA relative to rest of the world. </p>
+  
+        <div class="chart1" id="chart30">
             <script>
               var myChart30 = "project_motivation.json";
               vegaEmbed('#chart30', myChart30);
             </script>
              </div>
+
+             <p>I cleaned raw data from FOASTAT in Excel and changed countries’ names to match my geoJSON map.</p>
     </container>
 
 <!--second section--> 
 
 <container class="container1">
-    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 700;">Reliance on agriculture</span></h3>
-    <p> ///// </p>
+    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 600;">Reliance on agriculture</span></h3>
+
+    <p>The majority of SSA population live in rural areas relying on agriculture for their livelihood. The two staple crops maize and sugar cane are both water-intensive, making their yields sensitive to weather conditions. A reduction in yield will reduce famers’ income and their ability to eat or purchase food elsewhere due to higher food prices.</p>
+
+    <p>My regression shows a strong correlation between agriculture as a share of GDP and GDP per capita. Countries that rely on agriculture are generally poorer. Based on the GDP per capita value most SSA countries are classified as low income and they are often stuck in a cycle of poverty which in turn will raise food insecurity levels. </p>
 
         <div class="chart" id="chart31">
             <script>
@@ -70,14 +81,15 @@
             </script>
         </div>
 
-        <div class = "chart" id = "chart32">
+        <div class = "chart2" id = "chart32">
             <script>
             var myChart32 = "project_chart6.json"
             vegaEmbed('#chart32', myChart32)
         </script>
         </div>
         
-        <p> ///// </p>
+        <p>The data on all the crops produced by each country was too large to plot. I therefore cleaned the dataset to only include when a crop was produced by at least 100,000 tonnes and only the six most popular crops produced.</p>
+            <p> In python my original regression didn’t create a clean linearized relationship. I converted GDP per capita into a log format to compress the differences in values into a more manageable range.I performed the regression in Vega to enable different regions to be selected. </p>
 
         <div class="navbuttons">
             <button class="button2" style="vertical-align:middle" onclick="location.href='https://github.com/izzymercer/izzymercer.github.io/blob/88cfae70dda48865f404abccc4835889f61f8489/Copy_of_project_chart1.ipynb'"><span>Colab 1</span></button>
@@ -89,17 +101,17 @@
 <!--third section--> 
 
 <container class="container1">
-    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 700;">Resilliance to climate change.</span></h3>
-    <p> Countries SSA region are most at risk as they are both least able to leverage investments and convent them to adaption actions as well as being most sensitive to climate change; especially when comparing to high income countries in Europe.</p>
+    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 600;">Resilliance to climate change</span></h3>
+    <p>I wanted to understand how at-risk countries are vulnerable to extreme weather conditions. I regressed a countries vulnerability (exposure and sensitivity to adapt to negative impact of climate change) on readiness (a country’s ability to leverage investments and convert them to adaptation actions). An R^2 of 0.88 indicates a strong positive relationship: countries in SSA have limited resources and infrastructure to adapt to climate changes.</p>
 
-        <div class="chart" id="chart33">
+        <div class="chart2" id="chart33">
             <script>
               var myChart33 = "project_chart2.json";
               vegaEmbed('#chart33', myChart33);
             </script>
         </div>
 
-    <p>To create this chart i scarped data on countries <a href="https://www.bing.com/search?q=ND-GAIN+Country+Index+rankings+%7C+ND-GAIN+Index&cvid=1522163e0faa4808a124d4a22300ec3d&aqs=edge..69i57j69i61.544j0j1&pglt=41&FORM=ANNTA1&PC=LCTS">ND-GAIN Index's</a>. Then regressed each countries 'Readiness' on 'Vunrability'</a></p>
+    <p>I scraped the data using pandas from <a href="https://www.bing.com/search?q=ND-GAIN+Country+Index+rankings+%7C+ND-GAIN+Index&cvid=1522163e0faa4808a124d4a22300ec3d&aqs=edge..69i57j69i61.544j0j1&pglt=41&FORM=ANNTA1&PC=LCTS">ND-GAIN Index's</a> Data cleaning involved only including countries in SSA for each indicator. I repeated this for high income countries in Europe and merged this data in Excel. To differentiate the two, I added in my own ‘Region’ as this was not included in original data. I then performed my regression in Vega. .</p>
 
     <div class="navbuttons">
         <button class="button2" style="vertical-align:middle" onclick="location.href='https://github.com/izzymercer/izzymercer.github.io/blob/88cfae70dda48865f404abccc4835889f61f8489/chart2.ipynb'"><span>Colab 3</span></button>
@@ -112,10 +124,12 @@
 
 
 <container class="container1">
-    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 700;">Temperature increases</span></h3>
-    <p> ///// </p>
-
-        <div class="chart" id="chart36">
+    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 600;">Temperature increases</span></h3>
+    <p>A 2022 <a href="https://www.imf.org/en/Publications/WP/Issues/2022/03/18/Climate-Change-in-Sub-Saharan-Africa-Fragile-States-Evidence-from-Panel-Estimations-515159">IMF report</a> noted that a 1◦C rise in temperature decreases income per capita growth in fragile states in SSA by 1.8 percentage points. High temperatures are associated with an increase in frequency of extreme weather events which can threaten agriculture productivity. Kenya (24.75◦C) and Ethiopia (22.2◦C) experienced their hottest temperatures ever in 2021. In turn this led to droughts. Crops are unable to grow, and people left to<a href="https://www.bbc.co.uk/news/world-africa-61437239">‘eat whatever they can find, often not very much.’</a>.</p>
+   
+    
+      
+    <div class="chart2" id="chart36">
             <script>
               var myChart36 = "project_chart3.json";
               vegaEmbed('#chart36', myChart36);
@@ -123,7 +137,7 @@
         </div>
       </div>
 
-    <p> ///// </p>
+    <p>The average temperatures were scraped from <a href="https://en.wikipedia.org/wiki/List_of_countries_by_average_yearly_temperature">Wiki</a> using pandas. I cleaned the data to select only countries in Africa; however, some values were missing.</p>
 
     <div class="navbuttons">
         <button class="button2" style="vertical-align:middle" onclick="location.href='https://github.com/izzymercer/izzymercer.github.io/blob/88cfae70dda48865f404abccc4835889f61f8489/map2.ipynb'"><span>Colab 4</span></button>
@@ -134,8 +148,9 @@
 
 <!--fith section--> 
 <container class="container1">
-    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 700;">Impact of Food Insecurity</span></h3>
-    <p>////</p>
+    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 600;">Impact of food insecurity</span></h3>
+    <p>Exacerbated food poverty can have a considerate impact. I chose the countries in SSA most impacted by this. In the past 5 years the prevalence of undernourishment has been increasing for all 6 countries. 
+        </p>
 
     <div class="chart" id="chart34">
         <script>
@@ -151,7 +166,8 @@
     </script>
     </div>
     
-    <p>////</p>
+    <p>I used the world bank API’s package to download the data, first checking on their databank that the data was available as I found a lot of data was missing from SSA countries. In python I implemented a loop to iterate through each row keeping the countries. I then converted the data from JSON to CSV to clean my data. 
+        </p>
 
     <div class="navbuttons">
         <button class="button2" style="vertical-align:middle" onclick="location.href='https://github.com/izzymercer/izzymercer.github.io/blob/88cfae70dda48865f404abccc4835889f61f8489/API.ipynb'"><span>Colab 5</span></button>
@@ -160,10 +176,16 @@
 </container>
 
 <container class="container1">
-    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 700;">Conclusion</span></h3>
-<p>///</p>
-</container>
+    <h3 class="bodyText"><span style="color: #5ad5fe; font-weight: 600;">Conclusion</span></h3>
+<p>Overall, SSA countries are in a vulnerable position, lacking the resources and resilience to deal with climate change.</p>
 
+<p>I found it challenging to find data on climate change extremes in SSA. The impact of events such as droughts are often multifaced making it difficult to quantify their impact on specific crop productions in countries.  This meant I couldn’t conclude the direct causality of increased climate change on higher food insecurity. 
+    </p>
+
+    <p>To further this study, I would do a more depth analysis on each country and I would research what specific policy prioritization can address this issue to help improve the health and nutrition of the population in SSA. </p>
+
+
+</container>
 </body>
 </html>
 
