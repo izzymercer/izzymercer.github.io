@@ -132,8 +132,8 @@
     ]
   },
   "transform": [{"filter": "datum.Time == yearInput"}],
-  "width": "container",
-  "height": "container",
+  "width": "300",
+  "height": "300",
   "params": [
     {
       "name": "yearInput",
@@ -149,12 +149,7 @@
   ],
   "mark": {"type": "bar"},
   "encoding": {
-    "x": {
-      "field": "country",
-      "type": "nominal",
-      "axis": {"labelAngle": 290},
-      "title": "Country"
-    },
+    "x": {"field": "country", "type": "nominal", "axis": {"labelAngle": 290}},
     "y": {"field": "values", "type": "quantitative"},
     "color": {"field": "country", "type": "nominal", "legend": null}
   },
